@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Tshego's Tech Tutors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Compact Contact Page Styles */
+        .contact {
+            padding: 2rem 1rem;
+            background: #f9f9f9;
+            min-height: calc(100vh - 150px); /* Adjust based on your header/footer height */
+        }
+        
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .contact-intro {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+            color: #555;
+            font-size: 0.95rem;
+        }
+        
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .contact-methods {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+        }
+        
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+        }
+        
+        .contact-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 1rem;
+            transition: transform 0.2s;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .contact-card i {
+            font-size: 1.8rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-card h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .contact-card p {
+            color: #555;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .contact-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        
+        .contact-link:hover {
+            background: #2980b9;
+        }
+        
+        .contact-form-inner {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.3rem;
+            color: #2c3e50;
+            font-size: 0.9rem;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.6rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        
+        .form-group textarea {
+            min-height: 100px;
+        }
+        
+        .submit-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            width: 100%;
+            transition: background 0.2s;
+        }
+        
+        .submit-btn:hover {
+            background: #c0392b;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .social-links {
+            margin-top: 0.5rem;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .contact-methods,
+            .contact-form {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Tshego's Tech Tutors</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="modules.html">Modules</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p class="contact-intro">
+            Have questions or want to discuss your learning needs? I'm here to help!
+        </p>
+        
+        <div class="contact-container">
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>tshegochifani@gmail.com</p>
+                    <a href="mailto:tshegochifani@gmail.com" class="contact-link">Send Email</a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>+27 72 876 227</p>
+                    <a href="https://wa.me/2772876227" class="contact-link">Message on WhatsApp</a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>@TshegoTechTutor</p>
+                    <a href="https://linkedin.com/in/TshegoTechTutor" target="_blank" class="contact-link">Connect on LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <div class="contact-form-inner">
+                    <h3>Send Me a Message</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="tutoring">Tutoring Services</option>
+                                <option value="booking">Booking Question</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tshego's Tech Tutors</p>
+        <div class="social-links">
+            <a href="https://wa.me/2772876227"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://linkedin.com/in/TshegoTechTutor" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:tshegochifani@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+	 <p>&copy; 2024 Tshego's Tech Tutors. All rights reserved.</p>
+</body>
+</html>

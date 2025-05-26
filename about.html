@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Tshego's Tech Tutors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional CSS for the about page containers */
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .about-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .bio-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .profile-img-container {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .profile-img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .bio-text-container {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .credentials-container {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .credentials-container h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .credentials-container ul {
+            padding-left: 20px;
+        }
+        
+        .credentials-container li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Tshego's Tech Tutors</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="modules.html">Modules</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="about-header">
+                <h2>About Us!</h2>
+            </div>
+            
+            <div class="bio-container">
+                <div class="profile-img-container">
+                    <img src="images/BI.jpg" alt="Tshego" class="profile-img">
+                </div>
+                
+                <div class="bio-text-container">
+                    <h3>Welcome to Tshego's Tech Tutors!</h3>
+                    <p>
+                        We specialize in tutoring <strong>Systems Development, Web & Multimedia Development, 
+                        and Business Intelligence</strong>. With 3+ years of industry experience, 
+                        We break down complex topics into structured modules for easy learning.
+                    </p>
+                    
+                    <div class="credentials-container">
+                        <h3>My Credentials</h3>
+                        <ul>
+                            <li>Bsc(Hons) Business Intelligence and Data Analytics</li>
+                            <li>Certified in Power BI & Web Development</li>
+                            <li>Industry experience in software projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+         <p>&copy; 2024 Tshego's Tech Tutors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
